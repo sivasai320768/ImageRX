@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ImageRX" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=orthodbserver.database.windows.net;Initial Catalog=ImageOrthoDB;Persist Security Info=True;User ID=serveradmin;Password=User$179317$" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ImageOrthoDBConnectionString-Web.config Connection String" description="" value="Data Source=orthodbserver.database.windows.net;Initial Catalog=ImageOrthoDB;Persist Security Info=True;User ID=serveradmin;Password=User$179317$" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ImageOrthoDBConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="ImageOrthoDBConnectionString2-Web.config Connection String" description="" value="Data Source=orthodbserver.database.windows.net;Initial Catalog=ImageOrthoDB;Persist Security Info=True;User ID=serveradmin;Password=User$179317$" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ImageOrthoDBConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>

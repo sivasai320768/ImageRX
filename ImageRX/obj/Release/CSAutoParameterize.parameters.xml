@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ImageRX-20190811105920.mdf;Initial Catalog=aspnet-ImageRX-20190811105920;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ImageOrthoDBConnectionString-Web.config Connection String" description="ImageOrthoDBConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=orthodbserver.database.windows.net;Initial Catalog=ImageOrthoDB;Persist Security Info=True;User ID=serveradmin;Password=User$179317$" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ImageOrthoDBConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="ImageOrthoDBConnectionString2-Web.config Connection String" description="ImageOrthoDBConnectionString2 Connection String used in web.config by the application to access the database." defaultValue="Data Source=orthodbserver.database.windows.net;Initial Catalog=ImageOrthoDB;Persist Security Info=True;User ID=serveradmin;Password=User$179317$" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Images\\ImageRX\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ImageOrthoDBConnectionString2']/@connectionString" />
+  </parameter>
+</parameters>
